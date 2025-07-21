@@ -1,3 +1,5 @@
+import { getBrowserNameAndOS } from "../demos/common/browser-report.js"
+
 function Button() {
   this.Bounds; // in Screen coordinates
   this.Text;
@@ -1699,3 +1701,5 @@ class SigCaptDialog {
 		}	        		
 	}	
 }
+
+export default SigCaptDialog;

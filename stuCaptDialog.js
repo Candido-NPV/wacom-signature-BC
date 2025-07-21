@@ -1,3 +1,9 @@
+import SigCaptDialog from "./sigCaptDialog.js"
+import com from "./stu_capture/stu-sdk.min.js"
+
+/**
+ * Capture dialog using a STU device.
+ **/
 class StuCaptDialog {
 	
     constructor(sigSDK, config) {
@@ -567,3 +573,5 @@ class StuCaptDialog {
         })
     }		
 }
+
+export default StuCaptDialog;
