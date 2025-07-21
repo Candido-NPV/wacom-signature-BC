@@ -1,4 +1,4 @@
-import { getBrowserNameAndOS } from "../demos/common/browser-report.js"
+import { getBrowserNameAndOS } from ".browser-report.js"
 
 function Button() {
   this.Bounds; // in Screen coordinates

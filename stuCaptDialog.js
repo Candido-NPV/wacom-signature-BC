@@ -1,5 +1,5 @@
 import SigCaptDialog from "./sigCaptDialog.js"
-import com from "./stu_capture/stu-sdk.min.js"
+import com from "./stu-sdk.min.js"
 
 /**
  * Capture dialog using a STU device.
